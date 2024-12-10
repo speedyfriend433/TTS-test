@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Video</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    #output {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Text to Video Generator</h1>
+  <textarea id="textInput" placeholder="Enter text here..." rows="5" cols="50"></textarea><br><br>
+  <button id="generateBtn">Generate Video</button>
+  <div id="output"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ffmpeg.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
